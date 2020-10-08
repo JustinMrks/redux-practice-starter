@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react";
 
-import './App.css';
+import "./App.css";
 
-function App() {
+const App = () => {
   return (
     <div className="center">
       <h1>Soccer Players</h1>
@@ -11,6 +11,6 @@ function App() {
       <div>Have fun!</div>
     </div>
   );
-}
+};
 
 export default App;
